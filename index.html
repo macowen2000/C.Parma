@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C. Parma | Grand Opening | Fine Dining Restaurant | Arlington, Virginia</title>
+    <meta name="description" content="C. Parma - A revolutionary fine dining concept dedicated to the art of Chicken Parmesan. Now accepting reservations for May and June.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'serif': ['"Playfair Display"', 'serif'],
+                        'script': ['"Great Vibes"', 'cursive'],
+                    },
+                    colors: {
+                        'cparma-black': '#000000',
+                        'cparma-white': '#ffffff',
+                        'cparma-gray': '#1a1a1a',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        
+        .elegant-border {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .menu-script {
+            font-family: 'Great Vibes', cursive;
+            letter-spacing: 0.05em;
+        }
+        
+        .gold-accent {
+            color: #c9a961;
+        }
+        
+        .image-overlay {
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.8));
+        }
+        
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+        }
+    </style>
+</head>
+<body class="font-serif antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black/90 border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-widest uppercase">C. Parma</div>
+            <div class="hidden md:flex space-x-8 text-sm tracking-widest uppercase">
+                <a href="#concept" class="hover:text-gray-400 transition-colors">Concept</a>
+                <a href="#menu" class="hover:text-gray-400 transition-colors">Menu</a>
+                <a href="#reservations" class="hover:text-gray-400 transition-colors">Reservations</a>
+            </div>
+            <div class="md:hidden">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center justify-center pt-20">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-black/60 z-10"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 h-full">
+                <div class="relative h-64 md:h-full">
+                    <img src="http://static.photos/food/1200x630/42" alt="Italian Chicken Parmesan Preparation" class="w-full h-full object-cover opacity-80">
+                    <div class="absolute inset-0 image-overlay"></div>
+                </div>
+                <div class="relative h-64 md:h-full">
+                    <img src="http://static.photos/restaurant/1200x630/88" alt="C. Parma Interior Fine Dining" class="w-full h-full object-cover opacity-80">
+                    <div class="absolute inset-0 image-overlay"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="relative z-20 text-center px-6 max-w-5xl mx-auto">
+            <p class="text-sm md:text-base tracking-[0.3em] uppercase mb-4 text-gray-300">Announcing Our</p>
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-wider uppercase">Grand Opening</h1>
+            <div class="w-24 h-px bg-white mx-auto mb-6"></div>
+            <p class="text-xl md:text-2xl font-light italic mb-8">A Revolutionary Exploration of the Parmesan Arts</p>
+            <div class="mt-12 space-y-2 text-sm tracking-widest uppercase">
+                <p>8801 Wilson Boulevard</p>
+                <p>Arlington, Virginia 22201</p>
+                <p class="mt-4 text-lg">(703) 867-5309</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Concept Section -->
+    <section id="concept" class="py-24 px-6 bg-black">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 tracking-widest uppercase">The Concept</h2>
+                <div class="divider w-32 mx-auto mb-8"></div>
+            </div>
+            
+            <div class="prose prose-invert mx-auto space-y-6 text-gray-300 leading-relaxed text-lg text-justify">
+                <p>
+                    It is with the utmost reverence and anticipation that the C. Parma Restaurant Group announces the grand opening of our flagship establishment at 8801 Wilson Boulevard, Arlington, Virginia 22201. We stand poised to introduce to the discerning palates of the District metropolitan area a culinary concept unprecedented in its singular dedication: the complete and total elevation of Chicken Parmesan to its rightful place among the world's most revered gastronomic masterpieces.
+                </p>
+                
+                <p>
+                    For centuries, <em>Pollo alla Parmigiana</em> has occupied a sacred position within the canon of Italian culinary tradition. More than mere sustenance, this preparation represents the very essence of <em>convivialità</em>—the profound Italian philosophy that recognizes the dinner table as the center of human connection. At C. Parma, we approach this heritage with the gravity it demands, treating each cutlet not as protein, but as a canvas upon which we paint edible narratives of cultural exchange.
+                </p>
+                
+                <p>
+                    Under the visionary guidance of Executive Chef Salvatore Palmieri, our kitchen has undertaken a lifelong odyssey to transport this iconic preparation across continents and through centuries of culinary evolution. Chef Palmieri's extensive travels through Asia, Europe, the Caribbean, and the Americas have yielded a compendium of preparations that honor local terroir while maintaining an unwavering commitment to the foundational excellence of the Parmigiano-Reggiano crust.
+                </p>
+                
+                <p>
+                    This dedication to craft has garnered recognition from the <strong>James Beard Foundation</strong>, the <strong>Michelin Guide</strong>, and the <strong>World's 50 Best Restaurants</strong> organization, each acknowledging Chef Palmieri's audacious reimagining of a classic while preserving its soul. We invite you to experience the culmination of this gastronomic research—a menu that traverses the globe while remaining firmly rooted in Italian tradition.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-24 px-6 bg-cparma-gray">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 tracking-widest uppercase">Il Menu</h2>
+                <p class="text-gray-400 italic">Grand Opening Selections</p>
+                <div class="divider w-32 mx-auto mt-8"></div>
+            </div>
+
+            <!-- Antipasti -->
+            <div class="mb-20">
+                <h3 class="text-center text-sm tracking-[0.4em] uppercase mb-12 text-gray-400">Antipasti</h3>
+                
+                <div class="space-y-12">
+                    <div class="elegant-border p-8 md:p-12 text-center">
+                        <h4 class="menu-script text-4xl md:text-5xl mb-4 text-white">Arancini di Parmigiano</h4>
+                        <p class="text-gray-400 italic mb-4 text-sm tracking-wide">Crisp spheres of aged Parmigiano-Reggiano risotto, golden-fried to perfection</p>
+                        <p class="text-sm uppercase tracking-widest text-gray-500">Accompanied by our proprietary pomodoro della casa</p>
+                    </div>
+
+                    <div class="elegant-border p-8 md:p-12 text-center">
+                        <h4 class="menu-script text-4xl md:text-5xl mb-4 text-white">Burrata e Crostini</h4>
+                        <p class="text-gray-400 italic mb-4 text-sm tracking-wide">Silken burrata draped over artisanal parmesan crisps</p>
+                        <p class="text-sm uppercase tracking-widest text-gray-500">Finished with a reduction of aged balsamic and pomodoro rosso</p>
+                    </div>
+
+                    <div class="elegant-border p-8 md:p-12 text-center">
+                        <h4 class="menu-script text-4xl md:text-5xl mb-4 text-white">Gamberi in Crosta di Parmigiano</h4>
+                        <p class="text-gray-400 italic mb-4 text-sm tracking-wide">Jumbo prawns encrusted in fine parmesan breadcrumbs</p>
+                        <p class="text-sm uppercase tracking-widest text-gray-500">Served with a piccante pomodoro infusion</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Entrees -->
+            <div class="mb-20">
+                <h3 class="text-center text-sm tracking-[0.4em] uppercase mb-12 text-gray-400">Secondi Piatti</h3>
+                <p class="text-center text-xs uppercase tracking-widest text-gray-500 mb-16">All preparations feature our signature pounded cutlet with Parmigiano-Reggiano crust</p>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="elegant-border p-8 text-center group hover:bg-white/5 transition-colors">
+                        <h4 class="menu-script text-3xl md:text-4xl mb-3">Il Traditionale</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            The classical preparation honoring generations of Italian nonne—Mozzarella di Bufala DOP, San Marzano pomodoro, and fresh basilico, served with saffron-infused risotto milanese
+                        </p>
+                    </div>
+
+                    <div class="elegant-border p-8 text-center group hover:bg-white/5 transition-colors">
+                        <h4 class="menu-script text-3xl md:text-4xl mb-3">La Deconstruzione</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            An avant-garde presentation featuring parmesan tuile, tomato confit, mozzarella espuma, and toasted breadcrumb soil with micro basil emulsion
+                        </p>
+                    </div>
+
+                    <div class="elegant-border p-8 text-center group hover:bg-white/5 transition-colors">
+                        <h4 class="menu-script text-3xl md:text-4xl mb-3">L'Oriente</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Pan-Asian interpretation with teriyaki reduction, sesame-crusted poultry, pickled ginger, and wasabi crema, accompanied by forbidden rice
+                        </p>
+                    </div>
+
+                    <div class="elegant-border p-8 text-center group hover:bg-white/5 transition-colors">
+                        <h4 class="menu-script text-3xl md:text-4xl mb-3">La Germania</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Alpine preparation featuring käse-spätzle, jaeger mushroom sauce, pretzel breadcrumb crust, and braised red cabbage with caraway
+                        </p>
+                    </div>
+
+                    <div class="elegant-border p-8 text-center group hover:bg-white/5 transition-colors">
+                        <h4 class="menu-script text-3xl md:text-4xl mb-3">Il Sud-Ovest Americano</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Ancho chile pomodoro, house-aged queso fresco, cilantro-lime crema, corn masa dusting, served with black bean purée and roasted poblano
+                        </p>
+                    </div>
+
+                    <div class="elegant-border p-8 text-center group hover:bg-white/5 transition-colors">
+                        <h4 class="menu-script text-3xl md:text-4xl mb-3">I Caraibi</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Scotch bonnet pomodoro, coconut-crusted cutlet, plantain confit, mango coulis, and jerk-spiced breading with yuca purée
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations" class="py-24 px-6 bg-black border-t border-white/10">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 tracking-widest uppercase">Reservations</h2>
+            <div class="divider w-32 mx-auto mb-12"></div>
+            
+            <div class="elegant-border p-8 md:p-16 mb-12">
+                <p class="text-xl md:text-2xl leading-relaxed mb-8 text-gray-300 font-light">
+                    We cordially invite you to secure your reservation at your earliest convenience. Due to overwhelming anticipation within the culinary community and limited seating in our intimate dining room, we expect demand to exceed capacity throughout our opening months.
+                </p>
+                
+                <div class="flex flex-col items-center justify-center space-y-4 mb-8">
+                    <div class="flex items-center space-x-2 text-lg">
+                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        <span>8801 Wilson Boulevard, Arlington, VA 22201</span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-2xl font-bold tracking-wider">
+                        <i data-lucide="phone" class="w-6 h-6"></i>
+                        <span>(703) 867-5309</span>
+                    </div>
+                </div>
+
+                <div class="border-t border-white/20 pt-8 mt-8">
+                    <p class="text-sm uppercase tracking-[0.3em] text-gray-400 mb-2">Now Accepting Reservations For</p>
+                    <p class="text-3xl md:text-4xl font-bold tracking-widest uppercase">May & June ONLY</p>
+                </div>
+            </div>
+            
+            <p class="text-sm text-gray-500 italic">
+                We kindly request formal attire. Valet parking available.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-24 px-6 bg-cparma-gray border-t border-white/10">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="menu-script text-6xl md:text-8xl lg:text-9xl mb-8 text-white">
+                Buon Appetito
+            </div>
+            <div class="w-full h-px bg-gradient-to-r from-transparent via-white/30 to-transparent mb-8"></div>
+            <p class="text-xs uppercase tracking-[0.4em] text-gray-500">
+                &copy; 2024 C. Parma Restaurant Group. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+        
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+<script src="https://deepsite.hf.co/deepsite-badge.js"></script>
+</body>
+</html>
