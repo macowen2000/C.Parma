@@ -1,0 +1,129 @@
+/* C. Parma Fine Dining Styles */
+
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-gray: #1a1a1a;
+    --color-accent: #c9a961;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography Overrides */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+/* Custom Selection Color */
+::selection {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
+
+/* Image Hover Effects */
+.image-hover {
+    transition: transform 0.7s ease;
+}
+
+.image-hover:hover {
+    transform: scale(1.02);
+}
+
+/* Menu Item Hover Enhancement */
+.elegant-border {
+    transition: all 0.4s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.elegant-border:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+}
+
+/* Script Font Specifics */
+.menu-script {
+    font-family: 'Great Vibes', cursive;
+    line-height: 1.2;
+}
+
+/* Responsive Typography Adjustments */
+@media (max-width: 768px) {
+    .menu-script {
+        font-size: 2.5rem !important;
+    }
+    
+    h1 {
+        font-size: 2.5rem !important;
+    }
+    
+    h2 {
+        font-size: 1.75rem !important;
+    }
+}
+
+/* Loading State for Images */
+img {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+img[src=""] {
+    opacity: 0;
+}
+
+/* Focus States for Accessibility */
+a:focus,
+button:focus {
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 2px;
+}
+
+/* Text Balance for Headlines */
+h1, h2, h3 {
+    text-wrap: balance;
+}
+
+/* Paragraph Text Optimization */
+p {
+    text-wrap: pretty;
+}
+
+/* Prevent Horizontal Scroll */
+body {
+    overflow-x: hidden;
+}
